@@ -23,9 +23,9 @@
   // =====================================================
   // Editor Tabs & Navigation
   // =====================================================
-  // Enable preview editors (single tab reuse)
-  "workbench.editor.enablePreview": true,
-  "workbench.editor.enablePreviewFromQuickOpen": true,
+  // Disable preview editors so refactoring can update multiple files
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
 
   // Hide tabs completely (Zen-style workflow)
   "workbench.editor.showTabs": "none",
