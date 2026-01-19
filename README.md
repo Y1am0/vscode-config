@@ -1,3 +1,5 @@
+![VS Code configuration preview](assets/banner.png)
+
 # VS Code Configuration Bootstrap
 
 This repository contains a complete, opinionated Visual Studio Code setup:
