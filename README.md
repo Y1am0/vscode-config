@@ -78,7 +78,9 @@ The `code` command is added automatically during installation if the option
 
 Run:
 
+```txt
 code --version
+```
 
 If this prints a version number, you are good to go.
 
@@ -90,14 +92,18 @@ If this prints a version number, you are good to go.
 
 You can clone the repo using git:
 
+```txt
 git clone https://github.com/Y1am0/vscode-config.git
 cd vscode-config
+```
 
 ---
 
 ### Step 2: Run the installer
 
+```txt
 ./install.sh
+```
 
 What the script does:
 
@@ -126,7 +132,9 @@ To update this setup in the future:
 
 3. Re-run:
 
-   ./install.sh
+```txt
+./install.sh
+```
 
 This repository is the single source of truth.
 
