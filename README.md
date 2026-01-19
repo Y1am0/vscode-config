@@ -21,13 +21,17 @@ This repository is intended to be:
 
 ## Repository Structure
 
+```txt
 vscode-config/
 ├─ README.md
 ├─ install.sh
 ├─ extensions.txt
+├─ assets/
+│  └─ banner.png
 └─ .vscode/
-├─ settings.json
-└─ keybindings.json
+   ├─ settings.json
+   └─ keybindings.json
+```
 
 ---
 
@@ -133,3 +137,7 @@ This repository is the single source of truth.
 - This setup intentionally does NOT rely on VS Code Settings Sync
 - Everything is explicit, versioned, and reproducible
 - Running install.sh multiple times is safe
+
+```
+
+```
